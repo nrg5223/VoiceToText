@@ -16,7 +16,7 @@ default_duration = 5
 
 # Tools ============================================================
 
-model = whisper.load_model("base") # options: tiny, base, small, medium, large
+model = whisper.load_model("medium") # options: tiny, base, small, medium, large
 
 # App functions ====================================================
 
@@ -57,7 +57,7 @@ def transcribe():
     }
     results = model.transcribe(audio, **options)
 
-    output = f"{results["text"]}\n\nDetected Language: {LANGUAGES[results["language"]]}"
+    output = f"{results["text"]}\n\nDetected Language: {LANGUAGES[results["language"]].capitalize()}"
     main_label.configure(text=output)
 
 def translate():
