@@ -69,9 +69,17 @@ FFmpeg is needed by Whisper to process audio files. Follow the instructions for 
 
 ## Screenshots
 
-- **Welcome Screen**: Displays initial instructions.
-- **Recording State**: Shows a progress bar during audio recording.
-- **Transcription and Translation Results**: Displays results in the main label area.
+- **Base App**:
+<img src="screenshots/base_app.png" alt="App Screenshot" width="400">
+
+- **Recording in Progress**:
+<img src="screenshots/recording_in_progress.png" alt="App Screenshot" width="400">
+
+- **Transcription Results**:
+<img src="screenshots/transcribe.png" alt="App Screenshot" width="400">
+
+- **Translation Results**:
+<img src="screenshots/translate.png" alt="App Screenshot" width="400">
 
 ## License
 
