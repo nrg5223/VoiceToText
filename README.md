@@ -1,7 +1,3 @@
-Here's the updated README with the `ffmpeg` requirement added:
-
----
-
 # Voice-to-Text App
 
 A simple Voice-to-Text application using Python, Tkinter, and OpenAI's Whisper model to record audio, transcribe spoken words into text, and translate them if needed.
